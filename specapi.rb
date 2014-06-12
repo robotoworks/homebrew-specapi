@@ -7,8 +7,6 @@ class Specapi < Formula
   version '0.1.1'
 
   def install
-    man1.install 'specapi.1'
-    libexec.install 'specapi'
     bin.install_symlink "#{libexec}/bin"
   end
 end
