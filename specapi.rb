@@ -1,7 +1,7 @@
 require 'formula'
 
-class SpecAPI < Formula
-  url 'https://github.com/robotoworks/specapi/releases/download/v0.1.1/specapi.zip'
+class Specapi < Formula
+  url 'https://github.com/robotoworks/specapi/releases/download/v0.1.1/specapi.tar.gz'
   homepage 'https://github.com/robotoworks/specapi'
   sha1 '7a15437e2f174a51c5c9eeccca0d379b69a62bfa'
   version '0.1.1'
