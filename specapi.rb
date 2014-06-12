@@ -7,7 +7,8 @@ class Specapi < Formula
   version '0.1.1'
 
   def install
-    bin.install '*/**'
-    bin.install_symlink "#{libexec}/bin"
+    bin.install Dir['bin/libs/*']
+    bin.install Dir['bin/plugins/*']
+    bin.install 'bin/specapi'
   end
 end
