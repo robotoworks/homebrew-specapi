@@ -8,6 +8,6 @@ class Specapi < Formula
 
   def install
     bin.install Dir['bin/*']
-    ide.install Dir['ide/*']
+    ('ide').install Dir['ide/*']
   end
 end
