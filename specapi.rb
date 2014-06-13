@@ -7,7 +7,7 @@ class Specapi < Formula
   version '0.1.1'
 
   def install
-    bin.install Dir['bin/*']
-    ('ide').install Dir['ide/*']
+    prefix.install Dir['*']
+    bin.install Dir['bin/specapi']
   end
 end
