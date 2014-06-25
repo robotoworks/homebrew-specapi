@@ -1,10 +1,10 @@
 require 'formula'
 
 class Specapi < Formula
-  url 'https://github.com/robotoworks/specapi/releases/download/v0.1.4/specapi.tar.gz'
+  url 'https://github.com/robotoworks/specapi/releases/download/v0.1.5/specapi.tar.gz'
   homepage 'https://github.com/robotoworks/specapi'
-  sha1 'e08b0ebf6c3c6bf801338cd8f7ff89624dd421ab'
-  version '0.1.4'
+  sha1 'ae6225014ef24d6b2a5f15d18eeac87593e2f72a'
+  version '0.1.5'
 
   def install
     prefix.install Dir['*']
